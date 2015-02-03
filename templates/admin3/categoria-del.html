@@ -288,17 +288,6 @@
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
-	<!-- BEGIN PAGE HEAD -->
-	<div class="page-head">
-		<div class="container-fluid">
-			<!-- BEGIN PAGE TITLE -->
-			<div class="page-title">
-				<h1>Página <small>Categoria</small></h1>
-			</div>
-			<!-- END PAGE TITLE -->
-		</div>
-	</div>
-	<!-- END PAGE HEAD -->
 	<!-- BEGIN PAGE CONTENT -->
 	<div class="page-content">
 		<div class="container-fluid">
@@ -343,92 +332,46 @@
 								<div class="portlet box blue">
 									<div class="portlet-title">
 										<div class="caption">
-											<i class="fa fa-gift"></i>Formulário Categoria
+											<i class="fa fa-gift"></i>Apagar Categoria
 										</div>
 									</div>
-									<div class="portlet-body form">
-										<!-- BEGIN FORM-->
-										<form action="javascript:;" class="horizontal-form">
-											<div class="form-body">
-												<h3 class="form-section">Categoria Info</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Descrição</label>
-															<input type="text" id="firstName" class="form-control" placeholder="Chee Kin">
-															<span class="help-block">
-															This is inline help </span>
-														</div>
-													</div>
-													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group has-error">
-															<label class="control-label">Last Name</label>
-															<input type="text" id="lastName" class="form-control" placeholder="Lim">
-															<span class="help-block">
-															This field has error. </span>
-														</div>
-													</div>
-													<!--/span-->
-												</div>
-												<!--/row-->
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Gender</label>
-															<select class="form-control">
-																<option value="">Male</option>
-																<option value="">Female</option>
-															</select>
-															<span class="help-block">
-															Select your gender </span>
-														</div>
-													</div>
-													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Date of Birth</label>
-															<input type="text" class="form-control" placeholder="dd/mm/yyyy">
-														</div>
-													</div>
-													<!--/span-->
-												</div>
-												<!--/row-->
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Category</label>
-															<select class="select2_category form-control" data-placeholder="Choose a Category" tabindex="1">
-																<option value="Category 1">Category 1</option>
-																<option value="Category 2">Category 2</option>
-																<option value="Category 3">Category 5</option>
-																<option value="Category 4">Category 4</option>
-															</select>
-														</div>
-													</div>
-													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Ativo?</label>
-															<div class="radio-list">
-																<label class="radio-inline">
-																<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Sim </label>
-																<label class="radio-inline">
-																<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Não </label>
-															</div>
-														</div>
-													</div>
-													<!--/span-->
-												</div>
-												<!--/row-->
-											</div>
-											<div class="form-actions right">
-												<button type="button" class="btn default">Cancelar</button>
-												<button type="submit" class="btn blue"><i class="fa fa-check"></i> Salvar</button>
-											</div>
-										</form>
-										<!-- END FORM-->
-									</div>
+                                    <div class="portlet-body form">
+                                        <!-- BEGIN FORM-->
+                                        <form class="form-horizontal" role="form">
+                                            <div class="form-body">
+                                                <h3 class="form-section">Deseja realmente apagar a categoria de código 1?</h3>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Descrição:</label>
+                                                            <div class="col-md-9">
+                                                                <p class="form-control-static">
+                                                                    Festa Pop
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/span-->
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Ativo:</label>
+                                                            <div class="col-md-9">
+                                                                <p class="form-control-static">
+                                                                    Sim
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/span-->
+                                                </div>
+                                            </div>
+                                            <div class="form-actions right">
+                                                <button type="button" class="btn default">Cancelar</button>
+                                                <button type="submit" class="btn red"><i class="fa fa-trash-o"></i> Confirma Apagar</button>
+                                            </div>
+                                        </form>
+                                        <!-- END FORM-->
+                                    </div>
 								</div>
 							</div>
 						</div>

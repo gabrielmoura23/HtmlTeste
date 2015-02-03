@@ -288,17 +288,6 @@
 
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
-	<!-- BEGIN PAGE HEAD -->
-	<div class="page-head">
-		<div class="container-fluid">
-			<!-- BEGIN PAGE TITLE -->
-			<div class="page-title">
-				<h1>Página <small>Categoria</small></h1>
-			</div>
-			<!-- END PAGE TITLE -->
-		</div>
-	</div>
-	<!-- END PAGE HEAD -->
 	<!-- BEGIN PAGE CONTENT -->
 	<div class="page-content">
 		<div class="container-fluid">
@@ -350,77 +339,31 @@
 										<!-- BEGIN FORM-->
 										<form action="javascript:;" class="horizontal-form">
 											<div class="form-body">
-												<h3 class="form-section">Categoria Info</h3>
+												<h3 class="form-section">Geral</h3>
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group">
 															<label class="control-label">Descrição</label>
-															<input type="text" id="firstName" class="form-control" placeholder="Chee Kin">
-															<span class="help-block">
-															This is inline help </span>
+                                                            <input type="text" id="firstName" class="form-control" placeholder="Descrição">
+															
 														</div>
 													</div>
 													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group has-error">
-															<label class="control-label">Last Name</label>
-															<input type="text" id="lastName" class="form-control" placeholder="Lim">
-															<span class="help-block">
-															This field has error. </span>
-														</div>
-													</div>
-													<!--/span-->
-												</div>
-												<!--/row-->
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Gender</label>
-															<select class="form-control">
-																<option value="">Male</option>
-																<option value="">Female</option>
-															</select>
-															<span class="help-block">
-															Select your gender </span>
-														</div>
-													</div>
-													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Date of Birth</label>
-															<input type="text" class="form-control" placeholder="dd/mm/yyyy">
-														</div>
-													</div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Ativo?</label>
+                                                            <div class="radio-list">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="s" checked> Sim
+                                                                </label>
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="n"> Não
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 													<!--/span-->
 												</div>
-												<!--/row-->
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Category</label>
-															<select class="select2_category form-control" data-placeholder="Choose a Category" tabindex="1">
-																<option value="Category 1">Category 1</option>
-																<option value="Category 2">Category 2</option>
-																<option value="Category 3">Category 5</option>
-																<option value="Category 4">Category 4</option>
-															</select>
-														</div>
-													</div>
-													<!--/span-->
-													<div class="col-md-6">
-														<div class="form-group">
-															<label class="control-label">Ativo?</label>
-															<div class="radio-list">
-																<label class="radio-inline">
-																<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Sim </label>
-																<label class="radio-inline">
-																<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Não </label>
-															</div>
-														</div>
-													</div>
-													<!--/span-->
-												</div>
-												<!--/row-->
 											</div>
 											<div class="form-actions right">
 												<button type="button" class="btn default">Cancelar</button>
